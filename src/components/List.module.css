@@ -1,0 +1,293 @@
+
+
+ul{
+   position: relative;
+   background-color:  #32d1b2; 
+   box-shadow: whitesmoke 3px 3px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   list-style: none;
+   
+}
+
+li{
+   position: relative;
+   left: -15%;
+   color: white;
+   font-size: 1.3rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button i{
+   position: relative;
+   right: 4px;
+   bottom: 6px;
+   cursor: pointer;
+   
+}
+
+.editInput{
+  position: relative;
+  width: 45%;
+  height: 20%;
+  left: -20%;
+}
+
+
+
+.btnCheck{
+   position: absolute;
+   left: 20px;
+   width: 25px;
+   height: 25px;
+   top: 25px;
+}
+
+.btnCheck i{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+
+.btnClose{
+   position: absolute;
+   right: 20px;
+   width: 25px;
+   height: 25px;
+   top: 25px;
+}
+
+.btnClose i{
+   position:  absolute;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.todo{
+   position: relative;
+   width: 75%;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+}
+
+.todo h5{
+   position: absolute;
+   top: .5rem;
+   font-family:monospace;
+}
+
+.todo button{
+   position: absolute;
+   top: .5rem;
+   right: .3rem;
+}
+
+
+.doneTodo{
+   position: relative;
+   width: 75%;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-start;
+
+}
+
+
+.doneTodo input{
+   position: relative;
+   top: .5rem;
+   left: 2rem;
+}
+
+.doneTodo button{
+   position: relative;
+   top: .5rem;
+   left: 4rem;
+}
+
+.cardBrother{
+    width: 68vw;
+            height: 12vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #4d4c4c;
+            left: 3.5%;
+
+}
+
+.liStyle{
+   
+   position: absolute;
+   width: 60vw;
+   height: 8.5vh;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #32D0B2;
+   box-shadow: 3px 2px 3px 5px white;
+}
+
+.allList{
+   position: absolute;
+   width: 65%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   color: #4d4c4c;
+   font-weight: 700;
+   font-size: 1rem;
+   top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+   .cardBrother{
+      position: relative;
+      width: 90vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      background-color: #4d4c4c;
+      left: -12%;
+     
+}
+
+.liStyle{
+   
+   position: absolute;
+   width: 85vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: #32D0B2;
+   box-shadow: 3px 2px 3px 5px white;
+}
+
+.allList{
+   position: absolute;
+   width: 65%;
+   display: flex;
+   flex-direction: row;
+                justify-content: space-around;
+                color: #4d4c4c;
+                font-weight: 700;
+                font-size: 1rem;
+                top: 10px;
+}
+
+
+
+  button i{
+      position: relative;
+      right: 4px;
+      bottom: 10px;
+      cursor: pointer;
+      
+   }
+   
+   
+     
+   .btnCheck{
+      position: absolute;
+      left: 20px;
+      width: 25px;
+      height: 25px;
+      top: 18px;
+   }
+   
+   .btnCheck i{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+   }
+   
+   
+   .btnClose{
+      position: absolute;
+      right: 20px;
+      width: 25px;
+      height: 25px;
+      top: 22px;
+   }
+   
+   .btnClose i{
+      position:  absolute;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+   }
+   
+   .todo{
+      position: relative;
+      width: 85%;
+      height: 20%;
+      display: flex;
+      flex-direction: row;
+      left: 0%;
+     
+   }
+   
+   .todo h5{
+      position: absolute;
+      top: .3rem;
+      font-family:monospace;
+   }
+   
+  .todo .editButton{
+      position: relative;
+      width: 40%;
+      height: 90%;
+      left: 5rem;
+      top: .1rem;
+   }
+
+   
+.doneTodo{
+   position: relative;
+   width: 10rem;
+   height: 2rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   
+}
+.doneTodo .editInput{
+   position: absolute;
+   width: 6.5rem;
+   height: 1.5rem; 
+   left: 2px;
+   bottom: 10px;
+ }
+
+ .doneTodo .doneButton{
+   position: relative;
+   width: 3rem;
+   height: 1.5rem;
+   left: 7rem;
+  
+  
+}
+   
+   
+  
+   
+   
+   
+}

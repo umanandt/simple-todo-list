@@ -1,0 +1,184 @@
+
+*{
+    margin : 0;
+    height: fit-content;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.banner{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 50%;
+    top: -8%;   
+  
+}
+
+.heading{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #00d1b2;
+    font-weight: bold;
+    text-shadow: 2px 0 #59e9d4;
+    left: 0%;
+    top: 10%;
+}
+
+.heading h3{
+    position: relative;
+    top: 40%;
+}
+
+.imgg{
+    position: relative;
+    background-image: url(../image/cyborg-1.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    right: 0%;
+    top: 10%;
+    
+}
+
+
+.container .todos{
+    position: absolute;
+    width: 70%;
+    height: fit-content;
+    top: 64%;
+    left: 15%;   
+}
+
+form{
+    position: absolute;
+    background-color: #4d4c4c;
+    width: 70%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    top: 43%;
+    left: 15%;
+}
+
+
+input{
+    position:  absolute;
+    left: 20%;
+    box-shadow: 5px 2px 5px #5cd2c0;
+    top: 15%;
+}
+
+
+button{
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    right: 15%;
+    top: 15%;
+    border-radius: 15%;   
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+    .banner{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 50%;   
+      
+    }
+    
+    .heading{
+        position: relative;
+        width: 45%;
+        height: 100%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        color: #00d1b2;
+        font-weight: bold;
+        text-shadow: 2px 0 #59e9d4;
+        left: -5%;
+        top: -3%;
+    }
+    
+    .heading h3{
+        position: relative;
+        top: 40%;
+    }
+    
+    .imgg{
+        position: relative;
+        background-image: url(../image/cyborg-1.png);
+        background-repeat: no-repeat;
+        width: 45%;
+        height: 100%;
+        background-size: contain;
+        right: -3%;
+        top: 35%;
+        
+    }
+    
+    
+    .container .todos{
+        position: absolute;
+        width: 70%;
+        height: fit-content;
+        top: 64%;
+        left: 15%;   
+    }
+    
+
+
+    form{
+        position: absolute;
+        background-color: #4d4c4c;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        top: 43%;
+        left: 0%;
+    }
+
+
+
+    input{
+        position:  absolute;
+        left: 10%;
+        box-shadow: 5px 2px 5px #5cd2c0;
+        top: 15%;
+        height: 60%;
+        width: 55%;
+    }
+
+    button{
+        position: absolute;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        right: 10%;
+        height: 60%;
+        top: 15%;
+        border-radius: 15%;   
+    }
+}
